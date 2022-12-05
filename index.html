@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors game</title>
+</head>
+<body>
+    <main id="main">
+        <h1>You play, or you lose...</h1>
+        <div class="buttons">
+            <div class="btn rock">rock</div>
+            <div class="btn paper">paper</div>
+            <div class="btn scissors">scissors</div>
+        </div>
+        <div class="score">
+            <p class="game__itog">Game result</p>
+            <p class="score__title">Score:</p>
+            <div class="player__score">
+                <span>You - </span>
+                <span class="score__player">0</span>
+                <span>Machine - </span>
+                <span class="score__computer">0</span>
+            </div>
+        </div>
+        <p id='result' class="result"></p>
+        <div class="buttons">
+            <div class="btn retry">retry <i class="fa fa-undo"></i></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e233d6f6af.js" crossorigin="anonymous"></script>
+</body>
+</html>
